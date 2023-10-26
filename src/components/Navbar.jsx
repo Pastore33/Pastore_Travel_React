@@ -22,7 +22,7 @@ export const Navbar = () => {
             duration={500}
             className="cursor-pointer"
           >
-            <h1 className="font-semibold text-xl cursor-pointer">TripPixie</h1>
+            <h1 className="font-semibold text-xl cursor-pointer">PassViagens</h1>
           </Link>
         </div>
         <nav className="hidden lg:flex flex-row items-center gap-6">
@@ -42,7 +42,7 @@ export const Navbar = () => {
             duration={500}
             className="hover:text-brightColor transition-all cursor-pointer"
           >
-            Features
+            Novidade
           </Link>
           <Link
             to="/"
@@ -51,7 +51,7 @@ export const Navbar = () => {
             duration={500}
             className="hover:text-brightColor transition-all cursor-pointer"
           >
-            Destinations
+            Destinos
           </Link>
           <Link
             to="/"
@@ -60,7 +60,7 @@ export const Navbar = () => {
             duration={500}
             className="hover:text-brightColor transition-all cursor-pointer"
           >
-            About
+            Sobre
           </Link>
           <Link
             to="/"
@@ -69,12 +69,12 @@ export const Navbar = () => {
             duration={500}
             className="hover:text-brightColor transition-all cursor-pointer"
           >
-            Contact
+            Contato
           </Link>
         </nav>
         <div className="hidden lg:flex flex-row items-center gap-4">
           <h1 className="hover:text-brightColor transition-all cursor-pointer">
-            Register
+            Cadastrar
           </h1>
           <Button title="Login" backgroundColor={backgroundColor} />
         </div>
@@ -103,7 +103,7 @@ export const Navbar = () => {
           duration={500}
           className="hover:text-brightColor transition-all cursor-pointer"
         >
-          Features
+          Novidades
         </Link>
         <Link
           to="/"
@@ -112,7 +112,7 @@ export const Navbar = () => {
           duration={500}
           className="hover:text-brightColor transition-all cursor-pointer"
         >
-          Destinations
+          Destinos
         </Link>
         <Link
           to="/"
@@ -121,7 +121,7 @@ export const Navbar = () => {
           duration={500}
           className="hover:text-brightColor transition-all cursor-pointer"
         >
-          About
+          Sobre
         </Link>
         <Link
           to="/"
@@ -130,11 +130,11 @@ export const Navbar = () => {
           duration={500}
           className="hover:text-brightColor transition-all cursor-pointer"
         >
-          Contact
+          Contato
         </Link>
         <div className="flex flex-col lg:hidden lg:flex-row items-center gap-4">
           <h1 className="hover:text-brightColor transition-all cursor-pointer">
-            Register
+            Cadastrar
           </h1>
           <Button title="Login" backgroundColor={backgroundColor} />
         </div>
